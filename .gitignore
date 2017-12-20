@@ -1,0 +1,14 @@
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+*.tmproj
+build
+.idea
+nbproject/
+/node_modules
+/vendor
+/.vagrant
