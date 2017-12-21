@@ -19,4 +19,20 @@ class ExampleTest extends TestCase
         $user->setNameUser('dai');
         $this->assertEquals($user->getNameUser(), 'dai');
     }
+
+    /**
+     * A basic test example.
+     *
+     * @group true
+     * @return void
+     */
+    public function testTrue()
+    {
+        $this->assertTrue(true);
+    }
+    
+    public function testTrue1()
+    {
+        $this->assertTrue(true);
+    }
 }
